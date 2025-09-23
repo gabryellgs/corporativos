@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Quiz de Gabryell da Silva Gonçalves</h1>
+    <img src="{% static 'img/barba-branca.jpg' %}" alt="barba-branca">
+    <form action="{% url 'resposta' %}" method="POST">
+    {% csrf_token %}
+        <p>
+            Nome:
+            <input type="text" name="usuario">
+        </p>
+        <p>
+            Qual é o nome do barco do Barba Branca?<br>
+            <input type="radio" name="barco" value="Moby Dick">
+            Moby Dick<br>
+
+            <input type="radio" name="barco" value="Red Force">
+            Red Force<br>
+
+            <input type="radio" name="barco" value="Sunny">
+            Sunny<br>
+
+        </p>
+
+        <p>
+            Qual é o nome verdadeiro do Barba Branca?<br>
+            <input type="radio" name="nome" value="Marshall D. Teach">
+            Marshall D. Teach<br>
+
+            <input type="radio" name="nome" value="Edward Newgate">
+            Edward Newgate<br>
+
+            <input type="radio" name="nome" value="Rocks D. Xebec">
+            Rocks D. Xebec<br>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+        </p>
+
+    </form>
+</body>
+</html>
