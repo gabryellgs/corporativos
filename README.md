@@ -1,54 +1,46 @@
 # 📊 Sistemas Corporativos - IFRN
 
 Este repositório contém materiais e práticas desenvolvidas na disciplina de **Sistemas Corporativos**, do curso de **Sistemas para Internet - IFRN Campus Canguaretama**.  
-O principal framework utilizado no desenvolvimento é o **Django**, que permite a criação de aplicações web robustas e escaláveis.
+O framework utilizado para os projetos é o **Django**, que permite a criação de aplicações web corporativas robustas e escaláveis.
 
 ---
 
 ## 📖 Sobre a disciplina
-A disciplina de **Sistemas Corporativos** tem como objetivo estudar e implementar soluções de software aplicadas ao **ambiente empresarial**, explorando conceitos de integração, segurança e escalabilidade.  
+A disciplina de **Sistemas Corporativos** tem como objetivo apresentar conceitos e práticas de desenvolvimento de softwares aplicados ao **ambiente empresarial**, com foco em integração, escalabilidade e segurança.  
 
-O uso do **Django** possibilita vivenciar na prática:
-- Criação de sistemas web corporativos;
-- Integração com banco de dados relacionais;
-- Desenvolvimento rápido com o padrão **MVC (Model-View-Controller)** adaptado do Django (**MTV – Model-Template-View**);
-- Segurança e boas práticas em aplicações empresariais.
-
----
-
-## 🛠 Conteúdos principais
-- Fundamentos de sistemas de informação corporativos;
-- Arquitetura e componentes do Django;
-- Modelagem de banco de dados e ORM (Object-Relational Mapping);
-- Criação de rotas, views e templates;
-- Autenticação e autorização de usuários;
-- Integração entre módulos do sistema;
-- Implantação de sistemas corporativos na web.
-
----
-
-## 🎯 Objetivos de aprendizagem
-Ao final da disciplina, o estudante será capaz de:
-- Compreender o papel dos sistemas corporativos em organizações;
-- Projetar e implementar sistemas web utilizando **Django**;
-- Modelar bancos de dados corporativos e integrá-los ao framework;
-- Aplicar conceitos de segurança e escalabilidade em projetos reais.
+Com o **Django**, é possível:
+- Criar aplicações web estruturadas no padrão **MTV (Model-Template-View)**;  
+- Utilizar **ORM** para integração com bancos de dados relacionais;  
+- Desenvolver sistemas corporativos modulares;  
+- Implementar autenticação, autorização e boas práticas de segurança.  
 
 ---
 
 ## 📂 Estrutura do repositório
-- `docs/` → materiais de estudo e anotações teóricas;  
-- `exercicios/` → exercícios práticos realizados com Django;  
-- `projetos/` → projetos corporativos desenvolvidos na disciplina.  
+A organização do repositório está dividida em duas pastas principais:  
+
+- `aula/` → Contém os exemplos, códigos e materiais desenvolvidos durante as aulas.  
+- `atividade/` → Exercícios práticos e atividades propostas para fixar os conteúdos.  
+
+---
+
+## 🛠 Conteúdos principais
+- Fundamentos de sistemas corporativos;  
+- Estrutura do Django e suas camadas;  
+- Modelagem de banco de dados com **ORM**;  
+- Criação de views, rotas e templates;  
+- Autenticação e autorização de usuários;  
+- Integração entre módulos e reutilização de componentes;  
+- Boas práticas de versionamento e documentação de projetos.  
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 - **Python** 🐍  
 - **Django** 🌐  
-- **SQLite / MySQL** (dependendo do projeto)  
-- **HTML, CSS, JavaScript** (front-end integrado)  
-- **Git/GitHub** para versionamento  
+- **SQLite / MySQL** (para persistência de dados)  
+- **HTML, CSS, JavaScript** (front-end básico)  
+- **Git/GitHub** para versionamento e colaboração  
 
 ---
 
